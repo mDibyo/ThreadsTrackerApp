@@ -18,6 +18,14 @@ public class Thread {
 		mImportance = importance;
 	}
 	
+	public Thread(String title, Category category, Date deadline, boolean done) {
+		mTitle = title;
+		mCategory = category;
+		mDeadline = deadline;
+		mDone = done;
+		mImportance = mCategory.getImportance();
+	}
+	
 	public void setTitle(String title) {
 		mTitle = title;
 	}
