@@ -1,0 +1,22 @@
+ThreadsTracker
+
+- Add tasks, category, deadline, importance, theme, type (computer or otherwise)
+- Sort by these different metrics
+- Reminders
+
+- Manage personal life
+- Set events, to do lists, targets
+- Keep record of activities
+- Assign different level of priorities
+- Time different events so that they are on track
+- Alert when things are not going according to plan
+
+
+
+Implementation
+- Visualize as a _deck_ of cards
+- Each card is a transparent table on which a single day's events are displayed
+- Go in to move to the next day, go out to move back a day
+- Zoom out to lay cards in a surface: the month
+
+- Cards colored to show different spheres of life (eg. Social, Business, Commitments, Urgent), size of each area proportional to time to be given
