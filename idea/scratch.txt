@@ -13,10 +13,25 @@ ThreadsTracker
 
 
 
-Implementation
-- Visualize as a _deck_ of cards
-- Each card is a transparent table on which a single day's events are displayed
-- Go in to move to the next day, go out to move back a day
-- Zoom out to lay cards in a surface: the month
+Implementation:
+Different interactions done by different touch gestures
 
+Calendar
+- Visualize as a deck of cards
+- Each card is a transparent table on which a single day's events are displayed
+- Swipe down to move to the next day, swipe up to move back a day
+- Zoom out to lay cards in a surface: the month
 - Cards colored to show different spheres of life (eg. Social, Business, Commitments, Urgent), size of each area proportional to time to be given
+
+Tasks
+- Provide a name field for the task which can be autofilled
+- A category which collapses only when you have selected an option
+- A deadline calendar which collapses only when you have selected an option
+- Importance bar that never collapses
+
+Threads
+- Use threads to signify different task that have to be managed together
+- Threads start disappearing down the screen as deadlines approach
+- If they leave the screen, you have FAILED to complete it.
+- Color coded to signify status of completion
+- Threads are placed onto pins that signify category
