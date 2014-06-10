@@ -6,5 +6,6 @@
     <string name="action_settings">Settings</string>
     
     <string name="thread_name_hint">Name</string>
+    <string name="crime_title_label">Test</string>
 
 </resources>
