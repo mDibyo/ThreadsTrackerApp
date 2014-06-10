@@ -25,7 +25,16 @@
         <CalendarView 
             android:id="@+id/thread_deadline_calendarView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
+        <SeekBar
+            android:id="@+id/thread_importance_seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+        
     </LinearLayout>
 </ScrollView>
