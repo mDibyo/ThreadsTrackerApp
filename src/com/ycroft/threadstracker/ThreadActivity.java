@@ -1,5 +1,11 @@
 package com.ycroft.threadstracker;
 
-public class ThreadActivity {
+import android.support.v4.app.Fragment;
 
+public class ThreadActivity extends SingleFragmentActivity {
+
+	public Fragment createFragment() {
+		return new ThreadFragment();
+	}
+	
 }
